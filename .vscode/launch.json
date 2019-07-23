@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "AddTwoNumbers"
+        }
+    ]
+}
