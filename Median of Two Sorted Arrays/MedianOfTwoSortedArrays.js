@@ -29,7 +29,6 @@ var findMedianSortedArrays = function(nums1, nums2) {
                 if(nums1[i-1] > nums2[j-1]) {
                     maxLeft = nums1[i-1];
                 }else {
-                    console.log(j-1);
                     maxLeft = nums2[j-1];
                 }
             }
