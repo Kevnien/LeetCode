@@ -16,7 +16,6 @@ var maxArea = function(height) {
             r--;
         }
         let area = (right-left)*h;
-        console.log({right, left, h, area});
         if(largestArea < area) {
             largestArea = area;
         }
