@@ -8,7 +8,10 @@
 var threeSum = function(nums) {
     let answer = [];
     let map = new Map();
-    nums = sort(nums);
+    // nums = sort(nums);
+    nums.sort((a, b) => {
+        return a-b;
+    });
     let limit = nums.length-2;
     for(let i=0; i<limit; i++) {
         let j = i+1;
